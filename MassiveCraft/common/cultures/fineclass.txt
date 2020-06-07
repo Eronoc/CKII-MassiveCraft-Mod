@@ -93,7 +93,7 @@ fineclass = {
 			}
 		}
 		
-		color = { 0.8 0.8 0.2 }
+		color = { 0.77 0.77 0.77 }
 		male_names = {
 			Édouard_Edward Érrard Étienne_Stephen Adalbert_Albert Adémar_Adémar Adrien_Adrian Aimery_Aymeric Alain_Alan Aldebert_Albert Aldéric Alphonse_Alphonse Amaury_Amalric
 			Amédée Ancel André_Andrew Angelbert Antoine_Antonius Archambaud_Archibald Arnaud_Arnold Arnault_Arnold Arnoul_Arnulf Aubry Aymar Barthélémi_Bartolomeus
