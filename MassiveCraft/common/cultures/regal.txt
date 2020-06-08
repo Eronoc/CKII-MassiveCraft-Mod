@@ -138,7 +138,7 @@ regal = {
 		modifier = default_culture_modifier
 	}
 	imperial = {
-		graphical_cultures = { germangfx frankishgfx westerngfx }
+		graphical_cultures = { englishgfx frankishgfx westerngfx }
 		
 		color = { 0.22 0.22 0.22 }
 

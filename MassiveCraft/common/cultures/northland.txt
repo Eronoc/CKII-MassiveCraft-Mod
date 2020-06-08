@@ -1,0 +1,175 @@
+north_germanic = {
+	graphical_cultures = { westerngfx }
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+
+	velheim = {
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.41 0.73 0.51 }
+		
+		male_names = {
+			Anund_Anund Alv_Alf Arne_Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder_Balder Bård Bjørn_Beorn Eigil_Egil Eilif Einar_Einar Eirik_Erik Erlend Erling Eystein_Eysteinn Finn Frej_Frej
+			Grim_Grim Gudbrand Gudleik Gudmund_Gudmund Gudrød_Gudröd Gunnar_Gunnar Guttorm_Gorm Haldor Halfdan Halkjell Harald_Harold Helge_Helge Håkon_Hakon Håvard Inge_Ingolf Ivar_Ivar Jon_John Kåre Kolbein Lodin
+			Magne_Magne Magnus_Magnus Odd_Odd Ogmund Olav_Olaf Orm_Orm Ossor Ottar_Ottar Pål_Paul Ragnar_Rainer Ragnvald_Ragnvald Rolf_Rolf Sigurd_Sigurd Skjalg Skofte Skule_Skule Svein_Sven Sverre Sämund_Sämund Torbjørn_Torbjörn Tord_Tord Tore 
+			Torbrand_Torbrand Torfinn_Torfinn Torgeir_Torgeir Torgil_Torkel
+			Tormod Torolf_Thorolf Torstein_Torsten Trond Tryggve Ulv_Ulf Vigleik Åle Åmund Ølver Øystein_Eysteinn 
+		}
+		female_names = {
+			Anna_Anna Astrid_Astrid Brigida_Brigid Cecilia_Cecilia Eldrid Freja_Freja Gjertrud_Gertrude Gudrid Gudrun_Gudrun Gunnhild_Gunhild Gyda_Gytha Gyrid Haldora Homlaug Ingebjørg_Ingeborg Ingjerd_Ingegerd Ingrid_Ingrid Jorunn
+			Karin_Catherine Kristina_Christina Margrete_Margaret Maria_Maria Martha_Martha Ragna Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rannveig Sigrid_Sigrid Snøfrid Sunniva Svanhild_Svanhild Thora_Thora Thorborg Thordis_Thordis Åse_Åsa Åshild Åsta_Asta
+		}
+					
+		from_dynasty_prefix = "av "
+		
+		male_patronym = "sson"
+		female_patronym = "sdatter"
+		prefix = no
+
+		modifier = default_culture_modifier
+		
+		seafarer = yes
+	}
+	hoglander = {
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.24 0.53 0.33 }
+		
+		male_names = {
+			Albrikt_Albert Alf_Alf Algot Anders_Andrew Anund_Anund Arnbjörn Arne_Arne Arnfast Asbjörn_Asbjörn Astrad Azur Bagge Balder_Balder Bengt_Benedict Bertil_Berthold Birger Björn_Beorn Bo Borkvard Botulf_Botulf Brage_Brage Bror 
+			Brynjolf Dag Dan Dyre Egil_Egil Einar_Einar Emund Erik_Erik Eskild Faste Fredrik_Frederick Filip_Philip Folke_Folke Frej_Frej Georg_George Greger_Gregory Grim_Grim Gudröd_Gudröd Gunnar_Gunnar Gustav Halsten Hans_Hans Harald_Harold
+			Helgi_Helge Henrik_Henry Hjalmar_Hjalmar Holmger Håkan_Hakon Inge_Ingolf Ingemar Ingvar_Ingvar Jedvard_Edward Johan_John Karl_Charles Kettil Kettilmund Klas_Nicholas Knut_Knut Kol Kolbjörn Lars_Laurence Magnus_Magnus Markus_Marcus 
+			Mats_Matthew Nils_Nicholas Niklas_Nicholas Odd_Odd Olaf_Olaf Orvar_Orvar Peder_Peter Ragnar_Rainer Rolf_Rolf Rörek_Rurik Ragnvald_Ragnvald Sämund_Sämund Sörkver Sigbjörn Sigtrygg Sigurd_Sigurd Starkad_Starkad Sten_Sten Styrbjörn Sune_Sune Sven_Sven
+			Sverker Sölvi_Sölve Thomas_Thomas Tjudmund_Tjudmund Toke_Toke Tolir Torbjörn_Torbjörn Tord_Tord Torbrand_Torbrand Torfinn_Torfinn Torkel_Torkel Torolf_Thorolf Torsten_Torsten Toste Totil Tyke Ulf_Ulf Valdemar_Vladimir Åke Östen_Eysteinn 
+		}
+		female_names = {
+			Aleta Alfhild Alfridh_Alfridh Anna_Anna Asta_Asta Astrid_Astrid Beata Birgitta_Brigid Bothild_Bothild Cecilia_Cecilia Edla Elin Elisabet_Elizabeth Freja_Freja Gunhild_Gunhild Gyla Gurli Gytha_Gytha Hafrid 
+			Helena_Helen Holmfrid Iliana Inga_Inge Ingeborg_Ingeborg Ingegerd_Ingegerd Ingfrid Ingrid_Ingrid Karin_Catherine Katarina_Catherine Kristina_Christina Linda Maer Malmfrid_Malmfrid
+			Margareta_Margaret Märta_Martha Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rikissa Saga Sara_Sarah Sigrid_Sigrid Sofia_Sophia Svanhild_Svanhild Thordis_Thordis Ulvhilde Ylva Åsa_Åsa
+		}
+					
+		from_dynasty_prefix = "af "
+		
+		male_patronym = "sson"
+		female_patronym = "sdotter"
+		prefix = no # The patronym is added as a suffix
+		
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 80
+		mat_grf_name_chance = 0
+		father_name_chance = 0
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 50
+		mother_name_chance = 0
+
+		modifier = default_culture_modifier
+		
+		seafarer = yes
+	}
+	fridurfolk = {
+		graphical_cultures = { norsegfx }
+		
+		color = { 0.66 0.85 0.72 }
+		
+		male_names = {
+			Anund_Anund Alv_Alf Arne_Arne Arnfinn Arnkjell Arnmod Arnvid Aslak Audun Balder_Balder Bård Bjørn_Beorn Eigil_Egil Eilif Einar_Einar Eirik_Erik Erlend Erling Eystein_Eysteinn Finn Frej_Frej
+			Grim_Grim Gudbrand Gudleik Gudmund_Gudmund Gudrød_Gudröd Gunnar_Gunnar Guttorm_Gorm Haldor Halfdan Halkjell Harald_Harold Helge_Helge Håkon_Hakon Håvard Inge_Ingolf Ivar_Ivar Jon_John Kåre Kolbein Lodin
+			Magne_Magne Magnus_Magnus Odd_Odd Ogmund Olav_Olaf Orm_Orm Ossor Ottar_Ottar Pål_Paul Ragnar_Rainer Ragnvald_Ragnvald Rolf_Rolf Sigurd_Sigurd Skjalg Skofte Skule_Skule Svein_Sven Sverre Sämund_Sämund Torbjørn_Torbjörn Tord_Tord Tore 
+			Torbrand_Torbrand Torfinn_Torfinn Torgeir_Torgeir Torgil_Torkel
+			Tormod Torolf_Thorolf Torstein_Torsten Trond Tryggve Ulv_Ulf Vigleik Åle Åmund Ølver Øystein_Eysteinn 
+		}
+		female_names = {
+			Anna_Anna Astrid_Astrid Brigida_Brigid Cecilia_Cecilia Eldrid Freja_Freja Gjertrud_Gertrude Gudrid Gudrun_Gudrun Gunnhild_Gunhild Gyda_Gytha Gyrid Haldora Homlaug Ingebjørg_Ingeborg Ingjerd_Ingegerd Ingrid_Ingrid Jorunn
+			Karin_Catherine Kristina_Christina Margrete_Margaret Maria_Maria Martha_Martha Ragna Ragnfrid_Ragnfrid Ragnhild_Ragnhild Rannveig Sigrid_Sigrid Snøfrid Sunniva Svanhild_Svanhild Thora_Thora Thorborg Thordis_Thordis Åse_Åsa Åshild Åsta_Asta
+		}
+					
+		from_dynasty_prefix = "av "
+		
+		male_patronym = "sson"
+		female_patronym = "sdatter"
+		prefix = no
+
+		modifier = default_culture_modifier
+		
+		seafarer = yes
+	}
+	tarkkin = {
+		graphical_cultures = { ugricgfx norsegfx }
+		 
+		color = { 0.73 0.58 0.41 }
+
+		male_names = {
+			Aatos Ahma Aimo Armas Arvo Asikko Ensio Haapa Hannu Havu Hintsa Ihanti Into Jalo Jurva Kaleva Kalevi Kettu Kolli Lalli Lauri_Laurence Lemetti
+			Mielitty Miemo Mikko_Michael Oiva Onni Otso Pyry Päiviö Pentti Reko Sampo Satajalka Satatieto Seppo Susi Tapani Terho Toivo Ukko Uoti Urho Väinö
+			Valta Valto Veli Vesa Voitto Erkki_Erik Kaarle_Charles Johannes_John Risto_Christopher Olavi_Olaf Petri_Peter Henri_Henry Yrjö_George 
+			Valteri_Walter Riku_Richard Matti_Matthew Jaakoppi_Jacob Taisto Paavo_Paul Aatso_Adam Ahvo Aarto_Artur Asko Tuokko_David Rieti_Frederick
+			Kauro_Gabriel Kuuti_Knut Pekko Soini_Sven Tuure Turo Tommo Tohmas_Thomas
+			Aare Agul Ahas Aho Ahti Ahvo Alar Alo Alur Aopelg Aotõiv Arp Arvet Arvo Atko Aul Aulemb Eeri Elmar Hain Haljas
+			Heameel Heatõiv Hoovatõiv Hurmas Hurmetõiv Hõimulemb Hüvalemb Hüvameel Hüvatõiv Igalemb Igapäiv Ihalemb
+			Ihameel Ihar Ihatõiv Ihavald Illimar Ilmalemb Ilmar Ilvelemb Jaolemb Kaalep Kaarel_Charles Kaaren Kahar Kahru Kahrulemb
+			Kahus Kaido Kalev Kalju Kaljuvald Kalle Kaomeel Karuvald Kaugemeel Kaupo_Jacob Kaur Kiur Kiurupelg Koit Kosk Kudres
+			Küllelemb Leetõiv Lembit Leppetõiv Lible Lättelemb Manivald Mart Maru Mati_Matthew Mats Meelis Mehis Meigo Neeme Niglas
+			Ohetõiv Ohevald Olev_Olaf Onni Otelemb Ott Pihl Piho Pikne Päevalemb Pärt Raak Raho Rahuleid Sulev Susi Sutemeel
+			Sutepelg Tambet Tarva Tarvet Tasulemb Toivo Toom Tunne Tutkas Tuul Tõeleid Tõiv Tõivulemb Tõll Tõnn Uku
+			Urmas Uru Valdur Vambola Vandemeel Varjelemb Veli Vello Venno Vesse Vihavald Vililemb Vilimeel Vilitõiv Vilivald
+			Vootele Väino Värvo Õigemeel Ülo
+
+		}
+		female_names = {
+			Aamu Aino Hellä Helmi Ilta Kaarina_Catherine Käpy Kielo Kukka Lauha Lempi Mahla Maija Marja Mesi Metta Päivä Päivi Pihla Pilvi Rauha Sisko Suoma
+			Taimi Terhi Titti Tuija Tuovi Tuuli Tuulikki Tyyne Tyyni Vanamo Venla Mielikki Hertta Loviisa Inkeri Ilmatar Irene_Irene Ilona_Helen Kristiina_Christina
+			Elisabet_Elizabeth Sohvi_Sofia Auni_Agnes Liekko_Helen Kivutar Lemmikki Lyylikki Salme Talvikki Tuulitar
+			Aasa Ahma Aime Aimo Aita Aldi Ann Anni Annika Are Auli Aune Eha Elo Ere Helbe Hele Helgi Heli Helina Helmi Helve
+			Hiie Hämarik Hüüp Ida Ilme Ilmi Ilo Kai Kaili Kaja Kalli Kare Kati Kiir Kiire Killu Käbi Lagle Laine Lee Leek Leelo Leili
+			Lemme Liis Lill Linda Luule Maija Mari Marja Meeli Niine Ninni Oie Pilve Päivi Põim Salme Sirje Säde Taimi Talvi Tiiu
+			Tuuli Urve Viire Vilja Virge Virve Värvu Õie Õnne Ülane Ülle
+		}
+		from_dynasty_prefix = "of "
+
+		modifier = default_culture_modifier
+	}
+	zvorun = {
+		graphical_cultures = { westernslavicgfx norsegfx }
+		
+		color = { 0.44 0.36 0.29 }
+
+		male_names = {
+			Aleksander_Alexander Andrzej_Andrew Bartosz_Bartolomeus Bezprym Boguchwal Bogumil Boleslaw_Boleslav Boncza_Bonifacius Borzyslaw Bozydar_Theodat Borzywoj_Borijov Budziwuj Czcibor_Ctibor Czyrzniech
+			Dalimir Daniel_Daniel Dobieslaw Dobrogost Dobromir Doman Domawuj Dytryk_Thierry Eustachy_Eustace Gaudenty Gierolt_Gerald Gniewomir Gniewosz Gosciwuj Goszczon Henryk_Henry Imram
+			Izbor Józef_Joseph Jacek_Hyacinth Jaksa_Jacob Jakub_Jacob Jakusz Jan_John Janislaw_John Janko_John Janusz_John Jaroslaw_Jaroslav Jerzy_George Karol_Charles Kazimierz_Casimir Konrad_Konrad Krystyn_Christian Krzeslaw Lambert_Lambert Leszek
+			Maciej_Matthew Macko_Matthew Malowuj Marcin_Martin Maslaw Mateusz_Matthew Mieszko Mikolaj_Nicholas Milobrat Milosz_Milosz Miroslaw_Miroslav Msciwoj Mszczuj Nadbor Niezamysl Odon_Otto Pawel_Paul Pelka
+			Piotr_Peter Piskla Prendota Przemyslaw_Premysl Przybor Sambor Sedziej Sedzimir Sieciech Siemomysl Siemowit Skarbimir Snowid Spytko Stanislaw_Stanislav
+			Stefan_Stephen Stoigniew Strasz Sulislaw Sulistryj Swietopelk_Svatopluk Swietoslaw_Sviatoslav Szczesny_Felix Tomasz_Thomas Trojden Twardomir Usciech Waclaw_Vaclav Wanko_Vaclav Wawrzyniec_Laurence
+			Wielislaw Wieslaw Wincenty_Vincent Wit_Guy Witosz Wladyslaw_Vladislav Wojciech_Vojtech Wojuta Wszebor_Vsebor Zbigniew_Zbynek Zbyszko_Zbynek Zegota_Ignatius Zelibrat
+			Zygmunt_Sigmund
+			Ággi Áigesárri Áilu Ámmot Ára Árrajuoksa Ásllat Èoavvá Ahkemiella Algebaeivi Baeivi Baeivvet Biejan Bijás Bilzi Dávgon Duttá Gáivvas
+			Gáktu Henes Járre Jeansa Juvven_John Lágon Lávrrohas Leammá Mellet Mihka Mohkku Mokci Náhkol Náinnas Njulgu Oaván Orddot Rástos Riibma Ruigi
+			Sárra Speaidna Viggu
+		}
+		female_names = {
+			Adelajda Adleta Agnieszka_Agnes Aldona Anastazja_Anastasia Anna_Anna Beata Bozena Danuta Dobrawa Dobronega Elzbieta_Elizabeth Eufemia_Euphemia Eufrozyna_Euphrosyne Gertruda_Gertrude Grzymislawa
+			Helena_Helen Jadwiga_Hedwig Jolanta_Yolanda Judyta_Judith Katarzyna_Catherine Kazimiera Kenna Kinga_Kunigunde Konstancja_Constance Krystyna_Christina Kunegunda_Kunigunde Lucja_Lucia Ludmila_Liudmila Magdalena_Magdalena Malgorzata Maria_Maria
+			Matylda_Matilda Milena Nadzieja Nawoja Pechna Rycheza_Richeza Ryksa Salomea Samboja Scholastyka_Scholastica Smiechna Stanislawa Swietoslawa Wislawa Wojslawa_Vojslava
+			Wolislawa Wszebora Wszemila Zofia_Sophia Zwinislawa
+			Áidná Álgen Állet Èuvje Biellá Biergá Buohttá Duojá Gealá Gierá Giste Juoksáhkká Leandu Máidna Násti Naná Njáves Oajá Sáráhkká Sealggá 
+			Seará Soabá Sojá Suoinná Suonjar Uksáhkká
+		}
+		from_dynasty_prefix = "of "
+		
+		#male_patronym = "owski"
+		#female_patronym = "owska"
+		#prefix = no
+
+		modifier = default_culture_modifier
+		# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+		pat_grf_name_chance = 40
+		mat_grf_name_chance = 10
+		father_name_chance = 10
+		
+		# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+		pat_grm_name_chance = 10
+		mat_grm_name_chance = 40
+		mother_name_chance = 5
+	}
+}
