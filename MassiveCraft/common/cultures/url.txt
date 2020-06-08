@@ -1,0 +1,23 @@
+url = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures =  { beargfx norsegfx }
+
+	url = {
+		graphical_cultures = { beargfx norsegfx }
+		
+		color = { 0.74 0.66 0.58 }
+
+		male_names = {
+			Ingemar
+		}
+		female_names = {
+			Sigrid
+		}
+
+		from_dynasty_prefix = "of "
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+}

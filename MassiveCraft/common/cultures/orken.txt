@@ -1,0 +1,24 @@
+orken = {
+	alternate_start = { NOT = { has_alternate_start_parameter = { key = special_culture value = animal_world } } }
+	graphical_cultures =  { byzantinegfx easterngfx }
+
+	orken = {
+		graphical_cultures = { byzantinegfx persiangfx easterngfx }
+		secondary_event_pictures = bedouin_arabic
+		
+		color = { 0.28 0.53 0.31 }
+
+		male_names = {
+			Sargon
+		}
+		female_names = {
+			Ninalla
+		}
+
+		from_dynasty_prefix = "Lok-"
+		
+		allow_looting = yes
+
+		modifier = default_culture_modifier
+	}
+}
